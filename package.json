@@ -1,0 +1,32 @@
+{
+  "name": "express2.0",
+  "version": "1.0.0",
+  "description": "express nodeJs hbs模板",
+  "main": "app.js",
+  "dependencies": {
+    "amui-hbs-helper": "^2.2.0",
+    "body-parser": "^1.17.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.2",
+    "express-session": "^1.15.2",
+    "fs": "^0.0.1-security",
+    "handlebars": "^4.0.8",
+    "hbs": "^4.0.1",
+    "jquery": "^3.2.1",
+    "multer": "^1.3.0",
+    "session": "^0.1.0"
+  },
+  "devDependencies": {
+    "http": "0.0.0"
+  },
+  "scripts": {
+    "test": "supervisor --debug app.js",//node-inspector -p 8081 启动断点调试命令
+    "dev": "node app.js"
+  },
+  "keywords": [
+    "express",
+    "hbs"
+  ],
+  "author": "qjh",
+  "license": "ISC"
+}
